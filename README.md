@@ -1,2 +1,2 @@
 # Algorithms
-Some common implementation in python
+Some common algorithms implementation in python
