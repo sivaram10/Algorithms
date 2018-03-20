@@ -39,13 +39,12 @@ def merge(A, left, mid, right):
         A[k] = leftarray[i]
         i = i+1
         k = k+1
-    while j < rightarray:
+    while j < rightarraysize:
         A[k]= rightarray[j]
         j = j+1
         k = k+1
     
-    
-    
+
         
 A = [100, 2, 101, 1, 3, 4, 18, 55, 0]
 Amergesort(A, 0, 8)
